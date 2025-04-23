@@ -1,0 +1,39 @@
+{
+  "name": "netechcdn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --strict ",
+    "fmt": "next lint --strict --fix",
+    "prisma": "prisma",
+    "pg": "prisma generate",
+    "pdbp": "prisma db push",
+    "pmd": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "@tanstack/react-query": "^5.74.4",
+    "@uidotdev/usehooks": "^2.4.1",
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@tanstack/eslint-plugin-query": "^5.73.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "^19.1.0-rc.1",
+    "daisyui": "^5.0.28",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "prisma": "^6.6.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
