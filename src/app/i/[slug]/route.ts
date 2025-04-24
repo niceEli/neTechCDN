@@ -26,6 +26,7 @@ export async function GET(
     headers: {
       "Content-Type": "application/json",
       "Cache-Control": "no-store",
+      "Access-Control-Allow-Origin": "*",
     },
   });
 }

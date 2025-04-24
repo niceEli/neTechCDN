@@ -39,7 +39,8 @@ export async function GET(
       "Content-Title": file.name,
       "Title": file.name,
       "Transfer-Encoding": "chunked",
-      "Accept-Ranges": "bytes"
+      "Accept-Ranges": "bytes",
+      "Access-Control-Allow-Origin": "*",
     }
   })
 }
